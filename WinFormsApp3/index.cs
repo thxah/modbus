@@ -35,20 +35,20 @@ namespace WinFormsApp3
         private void BuadrateSelect_SelectedIndexChanged(object sender, EventArgs e)
         {
 
-            //BuadrateSelect.Items.Clear();
-            //// 添加选项值
-            //BuadrateSelect.Items.Add("9600");
-            //BuadrateSelect.Items.Add("19200");
-            //BuadrateSelect.Items.Add("38400");
-            //BuadrateSelect.Items.Add("57600");
-            //BuadrateSelect.Items.Add("115200");
+            BuadrateSelect.Items.Clear();
+            // 添加选项值
+            BuadrateSelect.Items.Add("9600");
+            BuadrateSelect.Items.Add("19200");
+            BuadrateSelect.Items.Add("38400");
+            BuadrateSelect.Items.Add("57600");
+            BuadrateSelect.Items.Add("115200");
 
-            //// 设置默认选中的选项
+            // 设置默认选中的选项
+            BuadrateSelect.SelectedIndex = 0;
+
+            // 添加 ComboBox 控件到窗体中
+            Controls.Add(BuadrateSelect);
             //BuadrateSelect.SelectedIndex = 0;
-
-            //// 添加 ComboBox 控件到窗体中
-            //Controls.Add(BuadrateSelect);
-            ////BuadrateSelect.SelectedIndex = 0;
 
         }
 
