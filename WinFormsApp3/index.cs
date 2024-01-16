@@ -29,7 +29,7 @@ namespace WinFormsApp3
 
         private void BuadrateSelect_DropDown(object sender, EventArgs e)
         {
-
+            //
 
         }
         private void BuadrateSelect_SelectedIndexChanged(object sender, EventArgs e)
